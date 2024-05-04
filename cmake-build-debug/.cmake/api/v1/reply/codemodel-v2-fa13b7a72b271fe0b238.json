@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "2024_Parcial2_Hernandez_Moscoso",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "2Parcial2024::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-2Parcial2024-Debug-a38f979780b8ec19b9f8.json",
 					"name" : "2Parcial2024",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2Parcial2024Part2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2Parcial2024Part2-Debug-fd1abedd2bdd74e85c55.json",
+					"name" : "2Parcial2024Part2",
 					"projectIndex" : 0
 				}
 			]

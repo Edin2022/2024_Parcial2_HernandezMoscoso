@@ -73,6 +73,39 @@ build 2Parcial2024.exe: CXX_EXECUTABLE_LINKER__2Parcial2024_Debug CMakeFiles/2Pa
   TARGET_IMPLIB = lib2Parcial2024.dll.a
   TARGET_PDB = 2Parcial2024.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2Parcial2024Part2
+
+
+#############################################
+# Order-only phony target for 2Parcial2024Part2
+
+build cmake_object_order_depends_target_2Parcial2024Part2: phony || CMakeFiles/2Parcial2024Part2.dir
+
+build CMakeFiles/2Parcial2024Part2.dir/2Parcial2024Part2.cpp.obj: CXX_COMPILER__2Parcial2024Part2_Debug C$:/Users/rexyr/OneDrive/Escritorio/2024$ Parcial2$ Hernandez$ Moscoso/2Parcial2024Part2.cpp || cmake_object_order_depends_target_2Parcial2024Part2
+  DEP_FILE = CMakeFiles\2Parcial2024Part2.dir\2Parcial2024Part2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2Parcial2024Part2.dir
+  OBJECT_FILE_DIR = CMakeFiles\2Parcial2024Part2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2Parcial2024Part2
+
+
+#############################################
+# Link the executable 2Parcial2024Part2.exe
+
+build 2Parcial2024Part2.exe: CXX_EXECUTABLE_LINKER__2Parcial2024Part2_Debug CMakeFiles/2Parcial2024Part2.dir/2Parcial2024Part2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2Parcial2024Part2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2Parcial2024Part2.exe
+  TARGET_IMPLIB = lib2Parcial2024Part2.dll.a
+  TARGET_PDB = 2Parcial2024Part2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 2Parcial2024: phony 2Parcial2024.exe
 
+build 2Parcial2024Part2: phony 2Parcial2024Part2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build 2Parcial2024: phony 2Parcial2024.exe
 #############################################
 # Folder: C:/Users/rexyr/OneDrive/Escritorio/2024 Parcial2 Hernandez Moscoso/cmake-build-debug
 
-build all: phony 2Parcial2024.exe
+build all: phony 2Parcial2024.exe 2Parcial2024Part2.exe
 
 # =============================================================================
 # Built-in targets

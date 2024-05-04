@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 
 add_executable(2Parcial2024 2Parcial2024.cpp)
+add_executable(2Parcial2024Part2 2Parcial2024Part2.cpp)
