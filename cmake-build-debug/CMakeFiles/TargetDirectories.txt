@@ -1,0 +1,3 @@
+C:/Users/rexyr/OneDrive/Escritorio/2024 Parcial2 Hernandez Moscoso/cmake-build-debug/CMakeFiles/2Parcial2024.dir
+C:/Users/rexyr/OneDrive/Escritorio/2024 Parcial2 Hernandez Moscoso/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rexyr/OneDrive/Escritorio/2024 Parcial2 Hernandez Moscoso/cmake-build-debug/CMakeFiles/rebuild_cache.dir
